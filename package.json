@@ -1,0 +1,34 @@
+{
+  "name": "component-github-content-api",
+  "version": "0.1.0",
+  "description": "Component remote interface to the GitHub content API",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "NODE=gnode make test",
+    "prepublish": "make clean build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/camshaft/component-github-content-api.git"
+  },
+  "author": "Cameron Bytheway <bytheway.cameron@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/camshaft/component-github-content-api/issues"
+  },
+  "homepage": "https://github.com/camshaft/component-github-content-api",
+  "dependencies": {
+    "remotes": "^1.1.3",
+    "generator-supported": "0.0.1"
+  },
+  "devDependencies": {
+    "should": "^3.3.1",
+    "mocha": "^1.18.2",
+    "gnode": "0.0.7",
+    "co": "^3.0.5",
+    "regenerator": "^0.4.6"
+  }
+}
