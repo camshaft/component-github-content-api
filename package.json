@@ -1,6 +1,6 @@
 {
   "name": "component-github-content-api",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "Component remote interface to the GitHub content API",
   "main": "index.js",
   "directories": {
@@ -21,7 +21,7 @@
   },
   "homepage": "https://github.com/camshaft/component-github-content-api",
   "dependencies": {
-    "remotes": "^1.1.3",
+    "component-remotes": "^1.2.0",
     "generator-supported": "0.0.1"
   },
   "devDependencies": {
