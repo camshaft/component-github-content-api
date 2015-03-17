@@ -1,6 +1,6 @@
 {
   "name": "component-github-content-api",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "Component remote interface to the GitHub content API",
   "main": "index.js",
   "directories": {
