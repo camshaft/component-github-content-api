@@ -21,7 +21,7 @@
   },
   "homepage": "https://github.com/camshaft/component-github-content-api",
   "dependencies": {
-    "component-remotes": "^1.2.0",
+    "remotes": "^1.1.0",
     "generator-supported": "0.0.1"
   },
   "devDependencies": {
